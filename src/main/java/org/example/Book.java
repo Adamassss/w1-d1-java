@@ -61,6 +61,7 @@ public class Book {
     @Override
     public boolean equals(Object o){
         if(o == null || getClass() !=  o.getClass()) return false;
+        // salami
         Book book = (Book) o;
         return year == book.year && title.equalsIgnoreCase(book.title) && author.equalsIgnoreCase(book.author) && genre == book.genre;
     }
