@@ -65,7 +65,7 @@ public class Book {
         return year == book.year && title.equalsIgnoreCase(book.title) && author.equalsIgnoreCase(book.author) && genre == book.genre;
     }
 
-
+    //SALAM
 
     @Override
     public int hashCode() {
