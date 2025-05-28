@@ -62,13 +62,11 @@ public class Book {
     public boolean equals(Object o){
         if(o == null || getClass() !=  o.getClass()) return false;
         Book book = (Book) o;
-        return year == book.year && title.equals(book.title) && author.equals(book.author) && genre == book.genre;
     }
 
 
 
     @Override
     public int hashCode() {
-        return Objects.hash(title, author, year, genre);
     }
 }
